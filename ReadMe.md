@@ -1,4 +1,4 @@
-# U6S2 - Instantiating Objects
+# U7S2 - Instantiating Objects
 
 * Part A - Foundations 7.2
 * Part B - UML Practice
