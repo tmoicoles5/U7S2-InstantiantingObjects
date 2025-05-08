@@ -4,9 +4,12 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import partA.ex01.Player;
 
+
 public class PlayerTest {
     @Test
     public void playerTest01(){
+        Player stephCurry = new Player("Steph Curry", "6'2", 13);
+        Player michaelJordan = new Player("Michael Jordan", "6'2", 15);
         String expected = "Player 1: \n" +
                 "variable: Stephen Curry\n" +
                 "Name: Stephen Curry\n" +
@@ -18,7 +21,7 @@ public class PlayerTest {
                 "Name: Michael Jordan\n" +
                 "Height: 6'6\n" +
                 "Years in the League: 15 years";
-        String actual = Player.player();
+        String actual = Player.Player();
         Assertions.assertEquals(expected, actual);
     }
 }

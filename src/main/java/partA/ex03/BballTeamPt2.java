@@ -2,18 +2,19 @@ package partA.ex03;
 
 public class BballTeamPt2 {
     public static String BballTeam() {
-        String response = "";
+        String player1 = new String("Stephen Curry");
+        String player2 = new String("Stephen Curry");
+        boolean result1 = player1 == player2; // false
 
-        /**
-         * Your code goes here
-         */
+        String player3 = "Michael Jordan";
+        String player4 = "Michael Jordan";
+        boolean result2 = player3 == player4; // true
 
-
-        return response;
+        return result1 + "\n" + result2 + "\n";
     }
 
     public static void main(String[] args) {
-        String teamOutput = BballTeam();
-        System.out.print(teamOutput);
+        System.out.print(BballTeam());
+
     }
 }

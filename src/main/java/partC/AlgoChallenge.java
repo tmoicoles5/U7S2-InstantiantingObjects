@@ -16,7 +16,9 @@ public class AlgoChallenge {
 
     public static Boolean range3050(int one, int two) {
 
-        return null;
+        boolean inRange30to40 = (one >= 30 && one <= 40) && (two >= 30 && two <= 40);
+        boolean inRange40to50 = (one >= 40 && one <= 50) && (two >= 40 && two <= 50);
+        return inRange30to40 || inRange40to50;
     }
 
      /* Problem 21
@@ -32,7 +34,7 @@ public class AlgoChallenge {
 
     public static Boolean compareLastDigit(int value1, int value2) {
 
-        return null;
+        return (value1 % 10) == (value2 % 10);
     }
 
 
